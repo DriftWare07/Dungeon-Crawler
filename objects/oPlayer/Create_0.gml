@@ -17,9 +17,12 @@ spd = 3
 scalex = 0
 movex = 0;
 movey = 0;
-
+accel = 0.3
 
 gp = false
+
+knockx = 0;
+knocky = 0;
 
 shootable = true
 current_gun = {}

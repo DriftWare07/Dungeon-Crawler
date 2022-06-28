@@ -50,22 +50,28 @@ if((abs(gph) > 0.2) or (abs(gpv) > 0.2))
 
 #endregion
 #region //movement
+
+
+
 movex = kright-kleft;
 movey = kdown-kup
+
+if(!place_meeting(x,y, oEnemy)){
 if(gp){
-hsp = movex*spd;
-vsp = movey*spd;
+hsp = median(hsp + sign(movex * spd - hsp) * accel, hsp, movex * spd);
+vsp = median(vsp + sign(movey * spd - vsp) * accel, vsp, movey * spd);
 }
 else{
 	if(movex != 0 and movey != 0)
 	{
-hsp = movex*sqrt(spd);
-vsp = movey*sqrt(spd);
+hsp = median(hsp + sign(movex * sqrt(spd) - hsp) * accel, hsp, movex * sqrt(spd));
+vsp = median(vsp + sign(movey * sqrt(spd) - vsp) * accel, vsp, movey * sqrt(spd));
 	}
 	else{
-	hsp = movex*spd;
-	vsp = movey*spd;
+	hsp = median(hsp + sign(movex * spd - hsp) * accel, hsp, movex * spd);
+    vsp = median(vsp + sign(movey * spd - vsp) * accel, vsp, movey * spd);
 	}
+}
 }
 
 
@@ -75,8 +81,6 @@ vsp = movey*sqrt(spd);
 
 
 
-//hsp = median(hsp + sign(axis_hor * spd - hsp) * accel, hsp, axis_hor * spd);
-//vsp = median(vsp + sign(axis_ver * spd - vsp) * accel, vsp, axis_ver * spd);
 
 #endregion
 #region //Collision
