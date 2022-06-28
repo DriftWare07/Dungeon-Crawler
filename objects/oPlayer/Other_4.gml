@@ -5,6 +5,7 @@ if(instance_exists(oPersistentData))
 {
 
 hp = health;
+maxhp = data.maxhealth;
 atk = data.attack;
 def = data.defense;
 knock = data.knockback;
