@@ -5,7 +5,6 @@
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": {
     "name": "sSlimeBallIdle",
     "path": "sprites/sSlimeBallIdle/sSlimeBallIdle.yy",
