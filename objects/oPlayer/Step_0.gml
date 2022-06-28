@@ -143,4 +143,5 @@ if(hp < 1) {
 room_goto(GameOver)
 
 }
+hppercent = (hp/maxhp)*100
 

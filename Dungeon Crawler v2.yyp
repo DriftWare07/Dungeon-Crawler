@@ -35,6 +35,7 @@
     {"id":{"name":"gameovertext","path":"objects/gameovertext/gameovertext.yy",},"order":0,},
     {"id":{"name":"knockback","path":"scripts/knockback/knockback.yy",},"order":0,},
     {"id":{"name":"sHeavy","path":"sprites/sHeavy/sHeavy.yy",},"order":1,},
+    {"id":{"name":"ibm","path":"fonts/ibm/ibm.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

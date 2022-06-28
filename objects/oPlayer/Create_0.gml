@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-hp = 10
+maxhp = 10
+hp = maxhp
+
+hppercent = (hp/maxhp)*100
+
+
 atk = 1
 def = 1
 knock = 1.5
