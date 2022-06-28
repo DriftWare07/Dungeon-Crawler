@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /// @description Insert description here
 // You can write your code in this editor
 maxhp = 10
@@ -6,6 +7,9 @@ hp = maxhp
 hppercent = (hp/maxhp)*100
 
 
+=======
+hp = 10
+>>>>>>> Stashed changes
 atk = 1
 def = 1
 knock = 1.5
