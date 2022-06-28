@@ -22,7 +22,6 @@ if(hp < 1)
 {
 	instance_destroy()
 }
-
 var xscale 
 if(instance_exists(oPlayer))
 {

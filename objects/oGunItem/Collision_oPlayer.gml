@@ -6,4 +6,9 @@ if(oPlayer.select)
 	}
 	other.current_gun = this;
 	instance_destroy()
+<<<<<<< Updated upstream
 }
+=======
+}
+
+>>>>>>> Stashed changes

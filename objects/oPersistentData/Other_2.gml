@@ -5,4 +5,8 @@ if(instance_exists(oPlayer))
 	defense = 1
 	knockback = 1.5
 	sped = 3
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

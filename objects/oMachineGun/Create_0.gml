@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 this = 
+=======
+this= 
+>>>>>>> Stashed changes
 {
 	dmg:2,
 	item: oMachineGun,
@@ -11,4 +15,8 @@ this =
 		instance_create_layer(oPlayer.x, oPlayer.y, "INSTANCES", oBasicBullet).direction = mdir+15;
 		instance_create_layer(oPlayer.x, oPlayer.y, "INSTANCES", oBasicBullet).direction = mdir;
 	}
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

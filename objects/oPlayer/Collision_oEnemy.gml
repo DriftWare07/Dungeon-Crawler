@@ -1,9 +1,14 @@
 if(other.atk-def > 0 and alarm[1] < 0)
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 hp -= other.atk-def;
 alarm[1] = 60;
 
+=======
+	hp -= other.atk-def;
+	alarm[1] = 60;
+>>>>>>> Stashed changes
 =======
 	hp -= other.atk-def;
 	alarm[1] = 60;

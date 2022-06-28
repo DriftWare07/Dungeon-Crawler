@@ -1,6 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /// @description Insert description here
 // You can write your code in this editor
+=======
+>>>>>>> Stashed changes
 maxhp = 10
 hp = maxhp
 

@@ -5,4 +5,3 @@ draw_text(x,y+50, "))Pick Up The Gun((")
 image_xscale = 5;
 image_yscale = 5;
 image_angle += 0.2;
-
