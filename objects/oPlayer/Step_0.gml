@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 #region //controls binding
 if(keyboard_check(vk_anykey)) gp = false
 
