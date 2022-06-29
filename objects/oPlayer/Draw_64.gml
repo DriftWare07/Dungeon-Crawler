@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 var alarminseconds
 alarminseconds = (alarm[1]*room_speed)/1000
 draw_set_font(ibm)
