@@ -112,7 +112,7 @@ if(floor(hsp) != 0 or floor(vsp) != 0)
 else{sprite_index = sPlayerIdle}
 
 if(gp) image_xscale = sign(gph)
-else image_xscale = sign(mouse_x-x)
+else if(sign(mouse_x-x) != 0)image_xscale = sign(mouse_x-x)
 
 #endregion
 #region //shooty shooty bang bang

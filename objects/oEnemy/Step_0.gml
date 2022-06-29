@@ -22,6 +22,7 @@ vsp = 0;
 y = y + vsp;
 if(hp < 1){
 instance_destroy()
+instance_create_layer(x,y,"COLLIDERS", oDeathFX);
 }
 
 var xscale 
