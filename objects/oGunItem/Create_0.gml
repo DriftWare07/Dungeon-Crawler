@@ -5,7 +5,7 @@
 this = {
 	dmg:1,
 item: oGunItem,
-ammo: 10,
+ammo: 5,
 sprite: sBasic,
 reload: 30,
 shoot: function(dir){

@@ -21,8 +21,7 @@ accel = 0.3
 
 gp = false
 
-knockx = 0;
-knocky = 0;
+current_ammo = 0
 
 shootable = true
 current_gun = {}

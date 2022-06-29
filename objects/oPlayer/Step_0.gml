@@ -117,24 +117,33 @@ else image_xscale = sign(mouse_x-x)
 #endregion
 #region //shooty shooty bang bang
 
-if((rb and variable_struct_exists(current_gun, "shoot")) and shootable){
+if((rb and variable_struct_exists(current_gun, "shoot")) and (shootable and current_ammo > 0) ){
 	current_gun.shoot(mdir);
 	shootable = false;
+	current_ammo --;
 	alarm[0] = current_gun.reload;
 	scalex = 0.6;
     
 }
 if(drop)
 {
-if(variable_struct_exists(current_gun, "item"))
-{
-instance_create_layer(x,y, "INSTANCES", current_gun.item)
-current_gun = {}
-}
+	if(variable_struct_exists(current_gun, "item"))
+	{
+		instance_create_layer(x,y, "INSTANCES", current_gun.item)
+		current_gun = {}
+	}
 }
 
 scalex += (1-scalex)/2
 scalex = clamp(scalex, -1, 1)
+
+
+if(variable_struct_exists(current_gun, "ammo") and (current_ammo < 1 and alarm[1] < 0)){
+{
+	alarm[1] = current_gun.reload*current_gun.ammo;
+}
+}
+
 #endregion
 if(alarm[1] > 0){
 

@@ -3,9 +3,9 @@
 this = {
 dmg:2,
 item: oMachineGun,
-ammo:30,
+ammo:15,
 sprite: sHeavy,
-reload: 2,
+reload: 7,
 shoot: function(mdir)
 {
 
