@@ -45,7 +45,8 @@ axis_ver = 0;
 hsp = median(hsp + sign(axis_hor * spd - hsp) * accel, hsp, axis_hor * spd);
 vsp = median(vsp + sign(axis_ver * spd - vsp) * accel, vsp, axis_ver * spd);
 
-
+hsp = clamp(hsp, -spd, spd)
+vsp = clamp(vsp, -spd, spd)
 
 image_xscale += ((1-image_xscale)/2)+xscale
 image_yscale += (1-image_yscale)/2
