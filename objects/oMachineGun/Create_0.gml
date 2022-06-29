@@ -5,7 +5,7 @@ dmg:2,
 item: oMachineGun,
 ammo:10,
 sprite: sHeavy,
-reload: 7,
+reload: 12,
 shoot: function(mdir)
 {
 
