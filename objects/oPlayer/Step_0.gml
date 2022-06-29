@@ -10,7 +10,7 @@ kdown = keyboard_check(ord("S"))
 kup = keyboard_check(ord("W"))
 
 lb = mouse_check_button(mb_right)
-rb = mouse_check_button_pressed(mb_left)
+rb = mouse_check_button(mb_left)
 select = keyboard_check_pressed(ord("E"))
 drop = keyboard_check_pressed(ord("Q"))
 if(not gp){mdir = point_direction(x,y, mouse_x, mouse_y)}
@@ -32,7 +32,7 @@ if(abs(gamepad_axis_value(0, gp_axislv)) > 0.2 or abs(gamepad_axis_value(0, gp_a
 
 if(gp){
 lb = gamepad_button_check(0, gp_shoulderlb)
-rb = gamepad_button_check_pressed(0, gp_shoulderrb)
+rb = gamepad_button_check(0, gp_shoulderrb)
 select = gamepad_button_check_pressed(0, gp_face1)
 drop = gamepad_button_check_pressed(0, gp_face2)
 
