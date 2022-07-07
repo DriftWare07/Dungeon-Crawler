@@ -20,7 +20,6 @@ movey = 0;
 accel = 0.3
 
 gp = false
-
 current_ammo = 0
 
 shootable = true

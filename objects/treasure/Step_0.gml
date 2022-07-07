@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-x -= (x-oPlayer.x)/25;
-y -= (y-oPlayer.y)/25
+if(wee)
+{
+x -= (x-oPlayer.x)/10;
+y -= (y-oPlayer.y)/10;
+}

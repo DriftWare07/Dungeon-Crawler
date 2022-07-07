@@ -44,7 +44,7 @@
     "spriteId": {"name":"sdeathFX","path":"sprites/sdeathFX/sdeathFX.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 7.0,
+    "playbackSpeed": 8.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

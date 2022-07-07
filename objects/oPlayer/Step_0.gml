@@ -15,6 +15,7 @@ select = keyboard_check_pressed(ord("E"))
 drop = keyboard_check_pressed(ord("Q"))
 if(not gp){mdir = point_direction(x,y, mouse_x, mouse_y)}
 #endregion
+
 #region //controller support
 
 if(abs(gamepad_axis_value(0, gp_axislv)) > 0.2 or abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
@@ -76,7 +77,15 @@ vsp = median(vsp + sign(movey * sqrt(spd) - vsp) * accel, vsp, movey * sqrt(spd)
 
 
 
+if(hsp != 0 or vsp != 0)
+{
 
+if(alarm[3] < 0)
+{
+alarm[3] = 5;
+}
+
+}
 
 
 
@@ -145,7 +154,7 @@ if(variable_struct_exists(current_gun, "ammo") and (current_ammo < 1 and alarm[1
 }
 
 #endregion
-if(alarm[1] > 0){
+if(alarm[2] > 0){
 
 image_alpha = 0.4;
 
