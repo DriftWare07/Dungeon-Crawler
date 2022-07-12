@@ -1,3 +1,4 @@
+
 /// @description Insert description here
 // You can write your code in this editor
 /*data = oPersistentData;
@@ -18,5 +19,6 @@ if(instance_exists(oPortalEnter))
 
 x = oPortalEnter.x
 y = oPortalEnter.y
+
 
 }

@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 var alarminseconds
 alarminseconds = (alarm[1]*room_speed)/1000
 draw_set_font(ibm)
@@ -28,6 +26,7 @@ if(variable_struct_exists(current_gun, "ammo"))
 	{
 		draw_text(55, 51, string(current_ammo)+"/"+string(current_gun.ammo))
 	}
+
 }
 
 //draw money counter
@@ -35,4 +34,6 @@ if(variable_struct_exists(current_gun, "ammo"))
 if(instance_exists(oPersistentData))
 {
 	draw_text(20, 75, "$ "+string(oPersistentData.loot))
+
+
 }
