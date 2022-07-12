@@ -5,4 +5,4 @@ randomize();
 
 active = false;
 plains = [plains1, plains2]
-next = 0
+next = plains2

@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oBulletSolid",
-    "path": "objects/oBulletSolid/oBulletSolid.yy",
+    "name": "oDepthObject",
+    "path": "objects/oDepthObject/oDepthObject.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

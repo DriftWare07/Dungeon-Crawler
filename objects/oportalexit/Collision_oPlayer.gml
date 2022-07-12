@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if(active){
 with(oPersistentData)
 {
 if(instance_exists(oPlayer)){
@@ -16,3 +16,5 @@ gun = oPlayer.current_gun;
 }
 
 room_goto(next)
+
+}

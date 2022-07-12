@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(instance_exists(oPlayer)){
-health = oPlayer.hp;
+hpoints = oPlayer.hp;
 maxhealth = oPlayer.maxhp;
 attack = oPlayer.atk;
 defense = oPlayer.def;

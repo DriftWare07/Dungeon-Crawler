@@ -16,5 +16,6 @@ else
 }
 if(next = room)
 {
-next = plains[random_range(0, plains.length)]
+//next = plains[random_range(0, plains.length)]
+
 }
