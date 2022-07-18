@@ -1,14 +1,14 @@
 {
   "spriteId": {
-    "name": "sBanditRun",
-    "path": "sprites/sBanditRun/sBanditRun.yy",
+    "name": "sFungiantIdle",
+    "path": "sprites/sFungiantIdle/sFungiantIdle.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "sSlimeBallIdle",
-    "path": "sprites/sSlimeBallIdle/sSlimeBallIdle.yy",
+    "name": "sFungiantIdle",
+    "path": "sprites/sFungiantIdle/sFungiantIdle.yy",
   },
   "persistent": false,
   "parentObjectId": {
@@ -30,6 +30,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -38,7 +39,7 @@
     "path": "folders/Objects/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBandit",
+  "name": "oFungiant",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,6 +1,6 @@
 this = 
 {
-	dmg:1,
+	dmg:1.5,
 	item: oGunItem,
 	ammo: 5,
 	sprite: sBasic,

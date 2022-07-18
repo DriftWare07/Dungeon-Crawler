@@ -1,14 +1,14 @@
 {
   "spriteId": {
-    "name": "sBanditRun",
-    "path": "sprites/sBanditRun/sBanditRun.yy",
+    "name": "sFungantIdle",
+    "path": "sprites/sFungantIdle/sFungantIdle.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "sSlimeBallIdle",
-    "path": "sprites/sSlimeBallIdle/sSlimeBallIdle.yy",
+    "name": "sFungantIdle",
+    "path": "sprites/sFungantIdle/sFungantIdle.yy",
   },
   "persistent": false,
   "parentObjectId": {
@@ -38,7 +38,7 @@
     "path": "folders/Objects/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBandit",
+  "name": "oFungant",
   "tags": [],
   "resourceType": "GMObject",
 }
