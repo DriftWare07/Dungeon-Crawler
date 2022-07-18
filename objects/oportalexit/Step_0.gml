@@ -7,15 +7,16 @@ if(instance_exists(oEnemy))
 
 	sprite_index = sPortalInactive
 	active = false
-
+	
 }
 else
 {
 	sprite_index = sPortalActive
 	active = true;
+	
 }
 if(next = room)
 {
-//next = plains[random_range(0, plains.length)]
+next = plains[1]
 
 }
