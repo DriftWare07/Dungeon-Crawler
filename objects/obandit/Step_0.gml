@@ -6,12 +6,13 @@ event_inherited()
 if(not chasing)
 {
 spd = 0;
-visible = false;
+sprite_index = sTrees
 }
 else{
 
 spd = 1;
-visible = true
+
+sprite_index = oBandit
 
 }
 

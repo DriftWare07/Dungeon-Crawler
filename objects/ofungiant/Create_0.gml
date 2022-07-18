@@ -1,6 +1,7 @@
 // Inherit the parent event
 event_inherited();
-hp = 7;
+hp = 20;
+maxhp = hp;
 atk =3;
 def=1;
 spd = 1
